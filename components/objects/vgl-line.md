@@ -10,4 +10,7 @@ Name of the geometry, representing the line segment(s).
 Name of the material for the line. 
 
 
+## methods 
+- `computeLineDistances()` 
+
 

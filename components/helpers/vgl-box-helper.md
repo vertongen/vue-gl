@@ -6,6 +6,9 @@ A helper component to show the world-axis-aligned bounding box around its parent
 - `color` ***string*** (*optional*) `default: '#ff0'` 
 Size of the lines representing the axes. 
 
+- `object` ***string*** (*optional*) 
+Name of the object to show the world-axis-aligned boundingbox. 
+
 
 ## methods 
 - `setFromObject()` 

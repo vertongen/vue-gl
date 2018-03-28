@@ -6,5 +6,14 @@ This is the base mixin component for all geometry components, corresponding [THR
 - `name` ***string*** (*optional*) 
 Name of the component. 
 
+- `position-attribute` ***floatArray*** (*optional*) 
+The x, y, and z coordinates of each vertex in this geometry. 
+
+- `color-attribute` ***floatArray*** (*optional*) 
+The red, green, and blue channels of vertex color of each vertex in this geometry. 
+
+- `normal-attribute` ***floatArray*** (*optional*) 
+The x, y, and z components of the vertex normal vector of each vertex in this geometry. 
+
 
 

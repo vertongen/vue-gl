@@ -9,5 +9,11 @@ If this is not the set the helper will take the color of the light.
 - `size` ***number*** (*optional*) `default: 1` 
 Dimensions of the plane. 
 
+- `light` ***string*** (*optional*) 
+Name of the directional light being visualized. 
+
+
+## methods 
+- `setHelper()` 
 
 

@@ -8,6 +8,6 @@ Name of the camera to visualize.
 
 
 ## methods 
-- `setCamera()` 
+- `setHelper()` 
 
 
