@@ -70,6 +70,7 @@ When you open the html above in the browser, you'll see below.
         Corresponding to [THREE.Object3D](https://threejs.org/docs/index.html#api/core/Object3D)
 - Extras
   - [x] **[VglCurve](src/extras/vgl-curve.js)** - Corresponding to [THREE.Curve](https://threejs.org/docs/index.html#api/extras/core/Curve)
+  - [x] **[VglCurvePath](src/extras/vgl-curve-path.js)** - Corresponding to [THREE.Curve](https://threejs.org/docs/index.html#api/extras/core/CurvePath)
 - Geometries
   - [x] **[VglBoxGeometry](src/vgl-box-geometry.js)** -
         Corresponding to [THREE.BoxGeometry](https://threejs.org/docs/index.html#api/geometries/BoxGeometry)

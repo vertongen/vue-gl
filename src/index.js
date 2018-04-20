@@ -59,6 +59,7 @@ import VglLatheGeometry from './geometries/vgl-lathe-geometry.js';
 import VglSpotLightHelper from './helpers/vgl-spot-light-helper.js';
 import VglHemisphereLight from './lights/vgl-hemisphere-light.js';
 import VglCurve from './extras/vgl-curve.js';
+import VglCurvePath from './extras/vgl-curve-path.js';
 
 export {
   VglNamespace,
@@ -122,4 +123,5 @@ export {
   VglSpotLightHelper,
   VglHemisphereLight,
   VglCurve,
+  VglCurvePath,
 };
