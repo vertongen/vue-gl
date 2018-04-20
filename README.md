@@ -68,6 +68,8 @@ When you open the html above in the browser, you'll see below.
         Corresponding to [THREE.Geometry](https://threejs.org/docs/index.html#api/core/Geometry)
   - [x] **[VglObject3d](src/vgl-object3d.js)** -
         Corresponding to [THREE.Object3D](https://threejs.org/docs/index.html#api/core/Object3D)
+- Extras
+  - [x] **[VglCurve](src/extras/vgl-curve.js)** - Corresponding to [THREE.Curve](https://threejs.org/docs/index.html#api/extras/core/Curve)
 - Geometries
   - [x] **[VglBoxGeometry](src/vgl-box-geometry.js)** -
         Corresponding to [THREE.BoxGeometry](https://threejs.org/docs/index.html#api/geometries/BoxGeometry)

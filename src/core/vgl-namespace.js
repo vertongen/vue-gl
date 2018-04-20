@@ -20,6 +20,7 @@ export default {
             }
           },
           beforeRender,
+          curves: Object.create(null),
           geometries: Object.create(null),
           materials: Object.create(null),
           textures: Object.create(null),
@@ -31,6 +32,7 @@ export default {
   provide() {
     return {
       vglNamespace: Object.create(this.vglNamespace, {
+        curves: { value: Object.create(this.vglNamespace.curves) },
         geometries: { value: Object.create(this.vglNamespace.geometries) },
         materials: { value: Object.create(this.vglNamespace.materials) },
         textures: { value: Object.create(this.vglNamespace.textures) },
