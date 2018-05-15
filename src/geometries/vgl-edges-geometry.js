@@ -1,4 +1,3 @@
-import { VglObject3dWithMatarialAndGeometry } from '../mixins.js';
 import { EdgesGeometry } from '../three.js';
 import { string, number } from '../validators.js';
 
@@ -9,7 +8,6 @@ import { string, number } from '../validators.js';
  */
 
 export default {
-  mixins: [VglObject3dWithMatarialAndGeometry],
   props: {
     /** Name of the geometry, defining the object's structure. */
     geometry: string,
@@ -18,11 +16,15 @@ export default {
      * default = 1 degree. */
     thresholdAngle: { type: number, default: 1 },
   },
+  inject: {
+    vglObject3d: { default: {} },
+    vglNamespace: 'vglNamespace',
+  },
   computed: {
     inst: () => {
-      const myInst = new EdgesGeometry();
-      myInst.thresholdAngle = parseInt(this.thresholdAngle, 10);
-      return myInst;
+      const { vglNamespace: { geometries }, geometry, thresholdAngle } = this;
+      return new EdgesGeometry(geometries[geometry], parseInt(thresholdAngle, 10));
     },
   },
+  render() { return {}; },
 };
